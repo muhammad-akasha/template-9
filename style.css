@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap");
+body {
+  padding: 0px 100px;
+  text-transform: capitalize;
+ background:  #2f1893;
+  font-family: "DM Sans", sans-serif;
+}
+.skew-image {
+
+  width: 23%;
+  height: 450px;
+ border-top-right-radius: 40px;
+ border: 10px solid black;
+  border-top: 0px;border-top-right-radius: 10px;
+  background-image: url(https://i.pinimg.com/736x/43/b2/19/43b219c9336739a2e7ff587e6355f3c3.jpg);background-size: cover;
+  position: relative;top: 150px;left: 150px;border-bottom-right-radius: 40px;;border-bottom-left-radius: 40px;
+}
+
+
+.skew-image::before {
+  content: "";
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  top: -60px;
+  left: -10px;
+  background: #49f6ffe0
+
+  ;transform: skewY(10deg);border-radius: 0px;border: 10px solid black;border-bottom: 0px
+  ;border-top-left-radius: 40px;;border-top-right-radius: 40px;
+
+   ;background-size: cover
+}
+
+.container{
+    position: absolute;right: 0px ;top: 140px;width: 50%;
+}
+.container>h2{
+    color: #ffffff;font-weight: 300
+}
+.container>h1{
+    width: 50%;font-size: 50px;color: #ffffff
+}
+.container>p{
+    width: 48%;color: #ffffff
+}
+.container>h4{
+    padding: 7px 20px;border-radius: 20px ;background: #25dac5 ;color: #ffffff;width: fit-content
+}
