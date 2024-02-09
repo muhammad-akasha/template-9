@@ -7,13 +7,13 @@ body {
 }
 .skew-image {
 
-  width: 23%;
+  width: 27%;
   height: 450px;
  border-top-right-radius: 40px;
  border: 10px solid black;
   border-top: 0px;border-top-right-radius: 10px;
   background-image: url(https://i.pinimg.com/736x/43/b2/19/43b219c9336739a2e7ff587e6355f3c3.jpg);background-size: cover;
-  position: relative;top: 150px;left: 150px;border-bottom-right-radius: 40px;;border-bottom-left-radius: 40px;
+  position: relative;top: 150px;left: 120px;border-bottom-right-radius: 40px;;border-bottom-left-radius: 40px;
 }
 
 

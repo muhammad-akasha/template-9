@@ -1,0 +1,146 @@
+@media only screen and (min-width:360px) and (max-width:500px){
+    body{
+        padding: 0px
+    }
+    .skew-image {
+        width: 45%;
+        height: 450px;
+        border-top-right-radius: 40px;
+        border: 10px solid black;
+        border-top: 0px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+        position: relative;
+        top: 150px;
+        left: 10px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .container {
+        position: absolute;
+        right: 25px;
+        top: 110px;
+        width: 40%;
+    }
+    .container>h1 {
+        width: 100%;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    .container>p {
+        width: 99%;
+        color: #ffffff;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:550px){
+    body{
+        padding: 0px
+    }
+    .skew-image {
+        width: 45%;
+        height: 450px;
+        border-top-right-radius: 40px;
+        border: 10px solid black;
+        border-top: 0px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+        position: relative;
+        top: 150px;
+        left: 0px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    .container {
+        position: absolute;
+        right: 40px;
+        top: 110px;
+        width: 40%;
+    }
+    .container>h1 {
+        width: 100%;
+        font-size: 30px;
+        color: #ffffff;
+    }
+    .container>p {
+        width: 99%;
+        color: #ffffff;font-size: 18px
+        
+    }
+}
+@media only screen and (min-width:550px) and (max-width:800px){
+    .container {
+        position: absolute;
+        right: 50px;
+        top: 110px;
+        width: 40%;
+    }
+    .skew-image {
+        width: 45%;
+        height: 450px;
+        border-top-right-radius: 40px;
+        border: 10px solid black;
+        border-top: 0px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+        position: relative;
+        top: 150px;
+        left: 0px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+.container {
+    position: absolute;
+    right: 40px;
+    top: 110px;
+    width: 40%;
+}
+.container>h1 {
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.container>p {
+    width: 99%;
+    color: #ffffff;font-size: 18px
+    
+}
+}
+@media only screen and (min-width:600px) and (max-width:800px){
+    .container>h1 {
+        width: 100%;
+        font-size: 46px;
+        color: #ffffff;
+    }
+    .skew-image {
+        width: 45%;
+        height: 450px;
+        border-top-right-radius: 40px;
+        border: 10px solid black;
+        border-top: 0px;
+        border-top-right-radius: 10px;
+      
+        background-size: cover;
+        position: relative;
+        top: 150px;
+        left: -10px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:900px) { 
+    .skew-image {
+    width:45%;
+    height: 450px;
+    border-top-right-radius: 40px;
+    border: 10px solid black;
+    border-top: 0px;
+    border-top-right-radius: 10px;
+    position: relative;left: -8px
+  }
+  .container>h1 {
+    width: 100%;
+    font-size: 50px;
+    color: #ffffff;
+}
+}
